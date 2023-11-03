@@ -5,15 +5,10 @@ const  hospitalRouter= require('./routers/hospitalRouter');
 const patientRouter = require('./routers/patientRouter');
 const dotenv=require('dotenv')
 dotenv.config();
-const fileupload= require('express-fileupload');
-const cloudinary=require("cloudinary").v2;
-const bodyParser = require('body-parser')
 
-cloudinary.config({ 
-    cloud_name: 'diyyauhhy', 
-    api_key: '414573585364938', 
-    api_secret: 'G65bvUleXplBf2_AoTYm7YQTXXg' 
-  });
+
+
+
 
 
 
